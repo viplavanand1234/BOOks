@@ -10,18 +10,31 @@ The code requires the following software for installation (older versions may wo
 Python 3.7 or later.
 Tech Stack
 Back-End: - Python, Django, sqlite3
+
 Front-End:- HTML/CSS, Bootstrap, JQuery, JavaScript, AJAX
-Installation
+
+
+#Installation
 Clone the repository
+
 Run pip install virtualenvto install virtualenv system-wide (if not installed before)
+
 Make a virtual environment in directory by running python -m venv myvenv
+
 Activate the virtual environment by:
+
 myvenv\Scripts\activate on Windows
+
 source myvenv/bin/activate on MacOS, Linux, Ubuntu
+
 Run pip install requirements.txt
+
 cd Book-Exchanger-Web-master
+
 python manage.py makemigrations app
+
 python manage.py migrate
+
 python manage.py runserver
 
 
